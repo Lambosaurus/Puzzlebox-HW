@@ -331,6 +331,68 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "N_NonPart:ToolingHole_1mm"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "N"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ToolingHole"
+				(at 0 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "N_NonPart:ToolingHole_1mm"
+				(at 0.254 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TOOLING HOLE 1MM"
+				(at 0 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ToolingHole_1mm_1_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(bus_alias "I2C"
 		(members "SCL" "SDA")
@@ -537,7 +599,7 @@
 	)
 	(symbol
 		(lib_id "M_Mechanical:Mount_M3")
-		(at 50.8 105.41 0)
+		(at 49.53 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -546,7 +608,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c64bf14-0b08-43cd-b0bd-9f5ddef30996")
 		(property "Reference" "M3"
-			(at 53.34 104.1399 0)
+			(at 52.07 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +617,7 @@
 			)
 		)
 		(property "Value" "Mount_M3"
-			(at 53.34 106.6799 0)
+			(at 52.07 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +626,7 @@
 			)
 		)
 		(property "Footprint" "M_Mechanical:Mount_M3"
-			(at 50.8 111.76 0)
+			(at 49.53 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -573,7 +635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 110.49 0)
+			(at 29.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +644,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 105.41 0)
+			(at 49.53 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,7 +663,7 @@
 	)
 	(symbol
 		(lib_id "M_Mechanical:Mount_M3")
-		(at 50.8 100.33 0)
+		(at 49.53 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -610,7 +672,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ba9f7eb-4ce5-40f9-9a4e-d291f03703b9")
 		(property "Reference" "M2"
-			(at 53.34 99.0599 0)
+			(at 52.07 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,7 +681,7 @@
 			)
 		)
 		(property "Value" "Mount_M3"
-			(at 53.34 101.5999 0)
+			(at 52.07 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +690,7 @@
 			)
 		)
 		(property "Footprint" "M_Mechanical:Mount_M3"
-			(at 50.8 106.68 0)
+			(at 49.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 105.41 0)
+			(at 29.21 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 100.33 0)
+			(at 49.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,17 +726,17 @@
 		)
 	)
 	(symbol
-		(lib_id "M_Mechanical:Mount_M3")
-		(at 50.8 95.25 0)
+		(lib_id "N_NonPart:ToolingHole_1mm")
+		(at 49.53 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "920aba54-299a-4020-b803-b26e3503b3a0")
-		(property "Reference" "M1"
-			(at 53.34 93.9799 0)
+		(uuid "846757dc-8a5d-4f8f-975a-012a1570d641")
+		(property "Reference" "N5"
+			(at 52.07 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -682,8 +744,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Mount_M3"
-			(at 53.34 96.5199 0)
+		(property "Value" "ToolingHole"
+			(at 52.07 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -691,8 +753,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M_Mechanical:Mount_M3"
-			(at 50.8 101.6 0)
+		(property "Footprint" "N_NonPart:ToolingHole_1mm"
+			(at 49.784 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +763,71 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 100.33 0)
+			(at 49.53 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TOOLING HOLE 1MM"
+			(at 49.53 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "N5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M_Mechanical:Mount_M3")
+		(at 49.53 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "920aba54-299a-4020-b803-b26e3503b3a0")
+		(property "Reference" "M1"
+			(at 52.07 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount_M3"
+			(at 52.07 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M_Mechanical:Mount_M3"
+			(at 49.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -710,7 +836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 95.25 0)
+			(at 49.53 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -729,7 +855,7 @@
 	)
 	(symbol
 		(lib_id "N_NonPart:Fiducial")
-		(at 66.04 95.25 0)
+		(at 67.31 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -738,7 +864,7 @@
 		(fields_autoplaced yes)
 		(uuid "97608a24-107c-4b42-b902-c4cd2dad44ea")
 		(property "Reference" "FID1"
-			(at 68.58 93.9799 0)
+			(at 69.85 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,7 +873,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 68.58 96.5199 0)
+			(at 69.85 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,7 +882,7 @@
 			)
 		)
 		(property "Footprint" "N_NonPart:Fiducial_2mm"
-			(at 52.07 85.09 0)
+			(at 53.34 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 85.09 0)
+			(at 53.34 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 95.25 0)
+			(at 67.31 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,17 +918,17 @@
 		)
 	)
 	(symbol
-		(lib_id "N_NonPart:Fiducial")
-		(at 66.04 105.41 0)
+		(lib_id "N_NonPart:ToolingHole_1mm")
+		(at 49.53 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c9a6e7ee-28cb-45a6-a2d7-0db19d36fbb8")
-		(property "Reference" "FID3"
-			(at 68.58 104.1399 0)
+		(uuid "9c2ab498-fca9-4726-9f7f-37c175588ea9")
+		(property "Reference" "N6"
+			(at 52.07 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,8 +936,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 68.58 106.6799 0)
+		(property "Value" "ToolingHole"
+			(at 52.07 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,8 +945,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "N_NonPart:Fiducial_2mm"
-			(at 52.07 95.25 0)
+		(property "Footprint" "N_NonPart:ToolingHole_1mm"
+			(at 49.784 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,7 +955,135 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 95.25 0)
+			(at 49.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TOOLING HOLE 1MM"
+			(at 49.53 142.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:ToolingHole_1mm")
+		(at 49.53 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac17734f-6acb-4151-973d-17b2d2ac6c20")
+		(property "Reference" "N4"
+			(at 52.07 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 52.07 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:ToolingHole_1mm"
+			(at 49.784 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TOOLING HOLE 1MM"
+			(at 49.53 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "N4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:Fiducial")
+		(at 67.31 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9a6e7ee-28cb-45a6-a2d7-0db19d36fbb8")
+		(property "Reference" "FID3"
+			(at 69.85 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 69.85 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:Fiducial_2mm"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,7 +1092,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 105.41 0)
+			(at 67.31 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,7 +1111,7 @@
 	)
 	(symbol
 		(lib_id "M_Mechanical:Mount_M3")
-		(at 50.8 110.49 0)
+		(at 49.53 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -866,7 +1120,7 @@
 		(fields_autoplaced yes)
 		(uuid "cebdcd41-c3c6-4a0b-b22e-e55e5b2221a0")
 		(property "Reference" "M4"
-			(at 53.34 109.2199 0)
+			(at 52.07 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,7 +1129,7 @@
 			)
 		)
 		(property "Value" "Mount_M3"
-			(at 53.34 111.7599 0)
+			(at 52.07 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -884,7 +1138,7 @@
 			)
 		)
 		(property "Footprint" "M_Mechanical:Mount_M3"
-			(at 50.8 116.84 0)
+			(at 49.53 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -893,7 +1147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 115.57 0)
+			(at 29.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +1156,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 110.49 0)
+			(at 49.53 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +1175,7 @@
 	)
 	(symbol
 		(lib_id "N_NonPart:Fiducial")
-		(at 66.04 100.33 0)
+		(at 67.31 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -930,7 +1184,7 @@
 		(fields_autoplaced yes)
 		(uuid "d051e191-7179-4ee3-a2b5-9d6cca5d3775")
 		(property "Reference" "FID2"
-			(at 68.58 99.0599 0)
+			(at 69.85 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,7 +1193,7 @@
 			)
 		)
 		(property "Value" "Fiducial"
-			(at 68.58 101.5999 0)
+			(at 69.85 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,7 +1202,7 @@
 			)
 		)
 		(property "Footprint" "N_NonPart:Fiducial_2mm"
-			(at 52.07 90.17 0)
+			(at 53.34 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -957,7 +1211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 90.17 0)
+			(at 53.34 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +1220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 100.33 0)
+			(at 67.31 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,17 +1238,17 @@
 		)
 	)
 	(symbol
-		(lib_id "N_NonPart:QR_5mm_JLC")
-		(at 66.04 120.65 0)
+		(lib_id "N_NonPart:ToolingHole_1mm")
+		(at 49.53 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f789aa71-daa8-473c-8d4d-e47ab2d84235")
-		(property "Reference" "N1"
-			(at 76.2 114.9349 0)
+		(uuid "f10f52b3-5485-47ee-886d-123a5d938288")
+		(property "Reference" "N3"
+			(at 52.07 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,8 +1256,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "QR 5mm"
-			(at 76.2 117.4749 0)
+		(property "Value" "ToolingHole"
+			(at 52.07 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,8 +1265,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "N_NonPart:QR_5mm_JLC"
-			(at 70.866 128.016 0)
+		(property "Footprint" "N_NonPart:ToolingHole_1mm"
+			(at 49.784 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1275,71 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 65.405 121.285 0)
+			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TOOLING HOLE 1MM"
+			(at 49.53 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "N3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:QR_5mm_JLC")
+		(at 67.31 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f789aa71-daa8-473c-8d4d-e47ab2d84235")
+		(property "Reference" "N1"
+			(at 77.47 114.9349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "QR 5mm"
+			(at 77.47 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:QR_5mm_JLC"
+			(at 72.136 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.675 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +1348,7 @@
 			)
 		)
 		(property "Description" "QR 8mm JLCPCB"
-			(at 70.612 125.984 0)
+			(at 71.882 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)

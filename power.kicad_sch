@@ -3225,16 +3225,16 @@
 		(uuid "200ab39e-ddcd-4e0d-ad89-596b21e0ebf8")
 	)
 	(junction
-		(at 106.68 76.2)
+		(at 82.55 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26c0eef8-1f9f-4ab7-9488-f5310f9c391e")
+		(uuid "24c209e1-ad97-4254-91bf-6cacc373442c")
 	)
 	(junction
-		(at 104.14 78.74)
+		(at 80.01 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34bb4db1-561e-41ef-89ec-bb5cc7127293")
+		(uuid "3092c3b1-87c5-45ff-991c-1cd213fde607")
 	)
 	(junction
 		(at 215.9 50.8)
@@ -3309,18 +3309,6 @@
 		(uuid "6e6ff849-930b-45e0-8625-ea053fbd215a")
 	)
 	(junction
-		(at 82.55 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "80cde9e4-6c5b-43b7-83b6-69323480e30b")
-	)
-	(junction
-		(at 80.01 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89c2793a-d45a-4571-b7f6-88a5a1f769f0")
-	)
-	(junction
 		(at 199.39 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3331,6 +3319,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ec82d23-92d6-4f67-ab90-e925fcbf5eb2")
+	)
+	(junction
+		(at 104.14 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90bce36e-8744-4672-9a4d-384938d7ca8c")
 	)
 	(junction
 		(at 69.85 101.6)
@@ -3410,6 +3404,12 @@
 		(color 0 0 0 0)
 		(uuid "f9a92abf-f0fd-4210-b1c2-e92acdc0d609")
 	)
+	(junction
+		(at 106.68 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fef5ed1c-bc7c-4683-b5ce-92070483bf7f")
+	)
 	(no_connect
 		(at 63.5 88.9)
 		(uuid "31a69875-2559-46d2-9d62-0cedf82bcd61")
@@ -3464,6 +3464,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 66.04) (xy 111.76 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0389429b-c8b0-47c1-af3b-be600097caec")
+	)
+	(wire
+		(pts
 			(xy 161.29 45.72) (xy 161.29 50.8)
 		)
 		(stroke
@@ -3491,6 +3501,16 @@
 			(type default)
 		)
 		(uuid "0f174493-200e-427d-8504-9de52686315b")
+	)
+	(wire
+		(pts
+			(xy 106.68 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1272295e-d28d-4916-86f1-60fc0d5f8359")
 	)
 	(wire
 		(pts
@@ -3551,16 +3571,6 @@
 			(type default)
 		)
 		(uuid "167a0e8b-fc1c-4be3-886a-938d2165aff5")
-	)
-	(wire
-		(pts
-			(xy 80.01 95.25) (xy 80.01 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "169916e7-64a0-422f-9ad0-401a8afa24cb")
 	)
 	(wire
 		(pts
@@ -3704,7 +3714,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 111.76 78.74)
+			(xy 66.04 78.74) (xy 106.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3754,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 66.04) (xy 111.76 66.04)
+			(xy 63.5 66.04) (xy 80.01 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3801,26 +3811,6 @@
 			(type default)
 		)
 		(uuid "3afac8ce-458d-4126-b02f-adbd6a382944")
-	)
-	(wire
-		(pts
-			(xy 63.5 68.58) (xy 80.01 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b7ab4f6-cc30-4f1f-b8cf-f22504b8b885")
-	)
-	(wire
-		(pts
-			(xy 66.04 78.74) (xy 104.14 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8527f5-ebb4-4ca2-9995-1bcb86fdec49")
 	)
 	(wire
 		(pts
@@ -3994,16 +3984,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 95.25) (xy 106.68 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "600b2888-d2c9-44b2-91ed-6565737a8e46")
-	)
-	(wire
-		(pts
 			(xy 69.85 58.42) (xy 69.85 60.96)
 		)
 		(stroke
@@ -4021,6 +4001,16 @@
 			(type default)
 		)
 		(uuid "618b91fc-35e2-42ef-b744-9cb8fec2853d")
+	)
+	(wire
+		(pts
+			(xy 80.01 66.04) (xy 80.01 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b33660-1e60-4f1e-bb3a-3ce71d1002b1")
 	)
 	(wire
 		(pts
@@ -4051,16 +4041,6 @@
 			(type default)
 		)
 		(uuid "6ecc741d-e517-4166-944c-e4927a2c1353")
-	)
-	(wire
-		(pts
-			(xy 66.04 76.2) (xy 106.68 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75fb5ad5-5d37-4fd4-9388-7554a2883970")
 	)
 	(wire
 		(pts
@@ -4141,6 +4121,16 @@
 			(type default)
 		)
 		(uuid "90833e2f-ff38-476a-98b3-ec9bdabbebcf")
+	)
+	(wire
+		(pts
+			(xy 82.55 68.58) (xy 82.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91bf7e94-f6b7-4f77-a8ec-89c271f5fa02")
 	)
 	(wire
 		(pts
@@ -4304,6 +4294,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 68.58) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed839a7-9659-43b9-a137-24eb53795fb3")
+	)
+	(wire
+		(pts
 			(xy 96.52 161.29) (xy 96.52 158.75)
 		)
 		(stroke
@@ -4404,33 +4404,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 92.71) (xy 82.55 66.04)
+			(xy 104.14 76.2) (xy 111.76 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc6a3990-31f5-4833-9149-d260162e6d44")
+		(uuid "cf449355-0b67-4c7f-867f-e71c210394de")
 	)
 	(wire
 		(pts
-			(xy 80.01 68.58) (xy 111.76 68.58)
+			(xy 63.5 68.58) (xy 82.55 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cfb3276c-0f58-4ffd-8a12-851713959e16")
-	)
-	(wire
-		(pts
-			(xy 63.5 66.04) (xy 82.55 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0f31c5a-1c68-4cf6-bb18-0fc25cb38bc5")
 	)
 	(wire
 		(pts
@@ -4474,16 +4464,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 92.71) (xy 104.14 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc92d6a6-357f-4fd4-b237-a334c87d7e48")
-	)
-	(wire
-		(pts
 			(xy 180.34 50.8) (xy 170.18 50.8)
 		)
 		(stroke
@@ -4524,7 +4504,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 111.76 76.2)
+			(xy 106.68 78.74) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b381b4-64c2-4392-b32f-35bebe174e0a")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 104.14 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4541,6 +4531,16 @@
 			(type default)
 		)
 		(uuid "ebc9fd91-2519-4e16-ae36-a9625175afd6")
+	)
+	(wire
+		(pts
+			(xy 104.14 76.2) (xy 104.14 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec81477c-1711-4b54-a5e3-25e6f4e6de94")
 	)
 	(wire
 		(pts
@@ -5443,15 +5443,15 @@
 	(symbol
 		(lib_id "Q_MOSFET:DMG1013UW-7")
 		(at 128.27 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "29e38c42-3719-4880-ba05-459ae5b361e7")
 		(property "Reference" "Q2"
-			(at 130.81 146.0499 0)
+			(at 130.81 148.5901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5460,7 @@
 			)
 		)
 		(property "Value" "DMG1013UW-7"
-			(at 130.81 148.5899 0)
+			(at 130.81 146.0501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5469,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SC70-3"
-			(at 128.27 162.56 0)
+			(at 128.27 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5478,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31861.pdf"
-			(at 127 160.02 0)
+			(at 127 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +5487,7 @@
 			)
 		)
 		(property "Description" "MOSFET P-CH 20V 820MA SOT323"
-			(at 128.524 164.846 0)
+			(at 128.524 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)

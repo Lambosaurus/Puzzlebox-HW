@@ -3066,16 +3066,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 116.84) (xy 190.5 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30cf4739-b82b-4edd-ab1c-28c58361c8e9")
-	)
-	(wire
-		(pts
 			(xy 88.9 87.63) (xy 86.36 87.63)
 		)
 		(stroke
@@ -3276,16 +3266,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 116.84) (xy 190.5 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d67214c-4645-4c22-a6ab-feeec254d3f5")
-	)
-	(wire
-		(pts
 			(xy 162.56 40.64) (xy 175.26 40.64)
 		)
 		(stroke
@@ -3336,6 +3316,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 40.64) (xy 189.23 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8306ab3-0e89-420e-a240-2091574184ee")
+	)
+	(wire
+		(pts
 			(xy 144.78 53.34) (xy 175.26 53.34)
 		)
 		(stroke
@@ -3346,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 121.92) (xy 190.5 121.92)
+			(xy 162.56 121.92) (xy 189.23 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3363,6 +3353,16 @@
 			(type default)
 		)
 		(uuid "b7aa8b77-68c1-4202-bdc2-6dc4aebffdf8")
+	)
+	(wire
+		(pts
+			(xy 187.96 40.64) (xy 189.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84e5b6a-459e-4d14-85aa-3c1da35372ea")
 	)
 	(wire
 		(pts
@@ -4758,7 +4758,8 @@
 	)
 	(symbol
 		(lib_id "lib:SFV31R-4STE1HLF")
-		(at 181.61 119.38 0)
+		(at 181.61 38.1 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4783,7 +4784,7 @@
 			)
 		)
 		(property "Footprint" "lib:SFV31R-4STE1HLF"
-			(at 180.34 -13.97 0)
+			(at 180.34 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +4793,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/flex/flexconnectors_050mm_sfvr.pdf"
-			(at 181.61 124.46 0)
+			(at 181.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +4802,7 @@
 			)
 		)
 		(property "Description" "CONN FPC TOP 31POS 0.5MM R/A"
-			(at 181.356 127 0)
+			(at 181.356 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

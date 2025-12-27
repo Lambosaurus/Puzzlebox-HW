@@ -2188,6 +2188,16 @@
 		(uuid "fe9b1b6c-73fd-43b8-adc9-dc0124d503ef")
 	)
 	(label "KEY1"
+		(at 43.18 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f696ac3-8e7f-4541-ab04-b59cc13c4ef1")
+	)
+	(label "KEY1"
 		(at 64.77 134.62 180)
 		(effects
 			(font
@@ -2227,6 +2237,16 @@
 		)
 		(uuid "4b59ce1e-0a1c-455f-bb72-c98bb894d05e")
 	)
+	(label "KEY2"
+		(at 152.4 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bae0412-d691-41e0-98af-3392f22b27d8")
+	)
 	(label "KEY3"
 		(at 152.4 82.55 0)
 		(effects
@@ -2237,16 +2257,6 @@
 		)
 		(uuid "91dc2b33-749f-460d-b37b-44ee4705c409")
 	)
-	(label "KEY1"
-		(at 152.4 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab10b174-eb8b-4017-878b-b8cc06f10c9c")
-	)
 	(label "KEY2"
 		(at 64.77 137.16 180)
 		(effects
@@ -2256,16 +2266,6 @@
 			(justify right bottom)
 		)
 		(uuid "dccb7e27-f5cb-41bd-950e-438baa4b7e36")
-	)
-	(label "KEY2"
-		(at 43.18 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f1274b11-ec2c-4937-8235-0b73da9de130")
 	)
 	(hierarchical_label "KEY[0..3]"
 		(shape output)
