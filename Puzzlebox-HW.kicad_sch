@@ -1,0 +1,1708 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "85f46178-e592-4bba-8a52-0851a9e12da1")
+	(paper "A4")
+	(title_block
+		(title "Puzzlebox")
+		(date "2025-12-27")
+		(rev "v1.0")
+		(company "TL Embedded Ltd")
+	)
+	(lib_symbols
+		(symbol "M_Mechanical:Mount_M3"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "M"
+				(at -1.27 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Mount_M3"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "M_Mechanical:Mount_M3"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Mount_M3_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "N_NonPart:Fiducial"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "N_NonPart:Fiducial_2mm"
+				(at -13.97 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -13.97 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "N_NonPart:QR_5mm_JLC"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "N"
+				(at 0.508 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "QR 5mm"
+				(at 4.572 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "N_NonPart:QR_5mm_JLC"
+				(at 4.826 -7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.635 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "QR 8mm JLCPCB"
+				(at 4.572 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "QR_5mm_JLC_0_1"
+				(rectangle
+					(start 0 8.89)
+					(end 2.54 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 2.54)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 8.89)
+					(end 8.89 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.35 2.54)
+					(end 8.255 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "QR_5mm_JLC_1_1"
+				(polyline
+					(pts
+						(xy 0 5.715) (xy 0 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 8.255)
+					(end 1.905 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 1.905)
+					(end 1.905 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 8.89) (xy 5.715 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.985 8.255)
+					(end 8.255 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 6.985 1.905)
+					(end 7.62 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 5.715) (xy 8.89 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0) (xy 3.175 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(bus_alias "I2C"
+		(members "SCL" "SDA")
+	)
+	(wire
+		(pts
+			(xy 139.7 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0594f6ba-085f-4e56-91bd-1eba565c389d")
+	)
+	(wire
+		(pts
+			(xy 76.2 60.96) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b5d7d5-c1ff-4dc5-acf1-fcb23d43f2bf")
+	)
+	(wire
+		(pts
+			(xy 139.7 99.06) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19f1a2a0-45b3-406c-894e-e711b0083c74")
+	)
+	(wire
+		(pts
+			(xy 139.7 48.26) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c1d606e-cfc6-4595-aedc-bb85f1dfb4dc")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc27bc0-8346-456c-971c-851ac3f4ab58")
+	)
+	(wire
+		(pts
+			(xy 139.7 45.72) (xy 165.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aefce18-6ca0-484f-96b2-bd9366790591")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea418a1-56ba-4e43-b457-e5658802fa11")
+	)
+	(wire
+		(pts
+			(xy 139.7 53.34) (xy 165.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614653a0-3238-42dd-8b0f-4b4211939b01")
+	)
+	(wire
+		(pts
+			(xy 139.7 83.82) (xy 165.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a29f963-5a17-446a-9c15-1b6d3ea25487")
+	)
+	(wire
+		(pts
+			(xy 76.2 48.26) (xy 101.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f03fe6-18f8-4c15-95ea-5654f61491ea")
+	)
+	(bus
+		(pts
+			(xy 139.7 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b336781f-93d9-4b75-9f61-9eab1cc7cc49")
+	)
+	(wire
+		(pts
+			(xy 76.2 43.18) (xy 101.6 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f78f2e-6bb1-49de-b3bf-cb822a68d2e6")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c703a8fb-4c44-4842-90bb-9b495a17e0df")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4bb9d0b-aeca-4a97-944f-c052d45de0a4")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 101.6 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d582609a-d27f-4b8b-b058-e36af6d8e380")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 165.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e16d8360-b9b3-4da1-8c0a-59f2136b2262")
+	)
+	(wire
+		(pts
+			(xy 76.2 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8210511-e937-4960-8f8d-80dc5d2deb68")
+	)
+	(bus
+		(pts
+			(xy 139.7 66.04) (xy 165.1 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa7cc72-a9f6-46a4-8234-c81aa938fec3")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 101.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1e2ca3-d30f-4335-ac54-bdbb3bbd9753")
+	)
+	(wire
+		(pts
+			(xy 139.7 43.18) (xy 165.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa310a1a-e775-4f87-9b8c-90325dcda5a8")
+	)
+	(symbol
+		(lib_id "M_Mechanical:Mount_M3")
+		(at 50.8 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c64bf14-0b08-43cd-b0bd-9f5ddef30996")
+		(property "Reference" "M3"
+			(at 53.34 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount_M3"
+			(at 53.34 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M_Mechanical:Mount_M3"
+			(at 50.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M_Mechanical:Mount_M3")
+		(at 50.8 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba9f7eb-4ce5-40f9-9a4e-d291f03703b9")
+		(property "Reference" "M2"
+			(at 53.34 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount_M3"
+			(at 53.34 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M_Mechanical:Mount_M3"
+			(at 50.8 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M_Mechanical:Mount_M3")
+		(at 50.8 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "920aba54-299a-4020-b803-b26e3503b3a0")
+		(property "Reference" "M1"
+			(at 53.34 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount_M3"
+			(at 53.34 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M_Mechanical:Mount_M3"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:Fiducial")
+		(at 66.04 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97608a24-107c-4b42-b902-c4cd2dad44ea")
+		(property "Reference" "FID1"
+			(at 68.58 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 68.58 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:Fiducial_2mm"
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:Fiducial")
+		(at 66.04 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9a6e7ee-28cb-45a6-a2d7-0db19d36fbb8")
+		(property "Reference" "FID3"
+			(at 68.58 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 68.58 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:Fiducial_2mm"
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M_Mechanical:Mount_M3")
+		(at 50.8 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cebdcd41-c3c6-4a0b-b22e-e55e5b2221a0")
+		(property "Reference" "M4"
+			(at 53.34 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount_M3"
+			(at 53.34 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M_Mechanical:Mount_M3"
+			(at 50.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "M4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:Fiducial")
+		(at 66.04 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d051e191-7179-4ee3-a2b5-9d6cca5d3775")
+		(property "Reference" "FID2"
+			(at 68.58 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 68.58 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:Fiducial_2mm"
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "N_NonPart:QR_5mm_JLC")
+		(at 66.04 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f789aa71-daa8-473c-8d4d-e47ab2d84235")
+		(property "Reference" "N1"
+			(at 76.2 114.9349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "QR 5mm"
+			(at 76.2 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "N_NonPart:QR_5mm_JLC"
+			(at 70.866 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.405 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "QR 8mm JLCPCB"
+			(at 70.612 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 63.5)
+		(size 25.4 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 175 255 191 1.0000)
+		)
+		(uuid "276dffb2-b3e2-4e45-8164-f12b2a3f1de1")
+		(property "Sheetname" "Touch"
+			(at 165.1 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "touch.kicad_sch"
+			(at 165.1 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "KEY[0..3]" output
+			(at 165.1 66.04 180)
+			(uuid "85c66c08-dd27-45b6-b950-a85676bf650f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 93.98)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 175 255 191 1.0000)
+		)
+		(uuid "401c7e8c-2dd4-4394-b18b-b9d85405a75a")
+		(property "Sheetname" "Sensors"
+			(at 165.1 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 165.1 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 165.1 96.52 180)
+			(uuid "9be71ce7-1841-48b3-b65d-832057d45750")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIS2_INT" output
+			(at 165.1 99.06 180)
+			(uuid "d3bdb58a-983b-40b8-8de3-8b76b3664fbc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VL53_EN" input
+			(at 165.1 101.6 180)
+			(uuid "c16211d9-7374-40b5-a423-f7f0ff43ea77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 38.1)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 175 255 191 1.0000)
+		)
+		(uuid "57640cdb-a2ef-40ef-bfa9-c28c1669f45d")
+		(property "Sheetname" "Display"
+			(at 165.1 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 165.1 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DISPLAY.A0" input
+			(at 165.1 43.18 180)
+			(uuid "5384be70-cce0-47e8-8835-ca5d05f65d6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BACKLIGHT" input
+			(at 165.1 53.34 180)
+			(uuid "dba80ed1-a73a-43c7-adc4-2d19ecaf92c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISPLAY.CS" input
+			(at 165.1 45.72 180)
+			(uuid "158e638f-d090-4e48-9e30-e03d6f709eb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISPLAY.MOSI" input
+			(at 165.1 50.8 180)
+			(uuid "3d6166a7-c3cc-4756-a3c0-bdf1a784551b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISPLAY.RST" input
+			(at 165.1 40.64 180)
+			(uuid "93ab01f2-c22c-44e1-ae07-5b6c83ea4d6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISPLAY.SCK" input
+			(at 165.1 48.26 180)
+			(uuid "8d4f3a44-d1f9-4cc3-a1cb-250768e5bddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 76.2)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 175 255 191 1.0000)
+		)
+		(uuid "a6f338ef-40bc-4cdb-8f27-65dd71d77183")
+		(property "Sheetname" "Audio"
+			(at 165.1 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "audio.kicad_sch"
+			(at 165.1 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUZZER" input
+			(at 165.1 78.74 180)
+			(uuid "170e416e-e117-4e97-bfdc-b799f7fca42d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC" output
+			(at 165.1 81.28 180)
+			(uuid "11422459-b853-4ed7-bec3-dc9c38ae08ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC_REF" input
+			(at 165.1 83.82 180)
+			(uuid "c907c05e-e647-453b-9400-a6a83532f32f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 38.1)
+		(size 38.1 66.04)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 175 255 191 1.0000)
+		)
+		(uuid "cc1f5194-a5d5-443b-bb8f-c797d7e4bf96")
+		(property "Sheetname" "MCU"
+			(at 101.6 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 101.6 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUZZER" output
+			(at 139.7 78.74 0)
+			(uuid "29cc8f15-cdb9-40d0-9bf4-6a292e4a472c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISPLAY.A0" output
+			(at 139.7 43.18 0)
+			(uuid "ca2d3ddb-8ab1-4261-a31c-aa4b5e5dc602")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BACKLIGHT" output
+			(at 139.7 53.34 0)
+			(uuid "4e56f5d4-1270-4c07-8954-d00e546e369a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISPLAY.CS" output
+			(at 139.7 45.72 0)
+			(uuid "9bde643c-2820-4807-ac5b-eeecb2c98dc9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISPLAY.MOSI" output
+			(at 139.7 50.8 0)
+			(uuid "1dd9f715-459c-4995-95a8-f0b45237db25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISPLAY.RST" output
+			(at 139.7 40.64 0)
+			(uuid "a1a9ab0d-8fad-4667-99c4-824332f26a8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISPLAY.SCK" output
+			(at 139.7 48.26 0)
+			(uuid "f76076b7-bbed-43ee-9e16-5d468d0dd732")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C{I2C}" bidirectional
+			(at 139.7 96.52 0)
+			(uuid "ea0ef347-d01e-4e1d-909a-c59318e9d0d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KEY[0..3]" input
+			(at 139.7 66.04 0)
+			(uuid "f6e3317b-d228-41d7-a23c-a249c57e1310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LIS2_INT" input
+			(at 139.7 99.06 0)
+			(uuid "96eb26c1-ac18-4a2b-84ed-8d768b1f0e9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIC" input
+			(at 139.7 81.28 0)
+			(uuid "139f6706-21d0-417f-bf20-7e5358a86e07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MIC_REF" output
+			(at 139.7 83.82 0)
+			(uuid "ad5e249d-5353-49d2-b0f8-dae67774235e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW_PWR_EN" output
+			(at 101.6 60.96 180)
+			(uuid "de9ec167-4b98-4095-b6d4-5ec59678d192")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB.CC1" bidirectional
+			(at 101.6 45.72 180)
+			(uuid "652e12c1-e129-4f12-8654-f14a6502696c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB.CC2" bidirectional
+			(at 101.6 48.26 180)
+			(uuid "a85b016c-b66f-4c2e-8096-a55ff755386c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB.DM" bidirectional
+			(at 101.6 40.64 180)
+			(uuid "109283f6-5326-4459-99e3-27348526e04c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB.DP" bidirectional
+			(at 101.6 43.18 180)
+			(uuid "421aa9cc-56d0-42d3-ab95-1c144c1eaf4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBATT_SNS_AIN" input
+			(at 101.6 55.88 180)
+			(uuid "56cf335a-6e1a-4693-a503-514268099767")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBATT_SNS_EN" output
+			(at 101.6 53.34 180)
+			(uuid "4a0d042a-98db-4fda-aec1-1829b50d5b5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VL53_EN" output
+			(at 139.7 101.6 0)
+			(uuid "27ad7eb3-6e7b-40b6-a04a-a8665ec51651")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 38.1)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 175 255 191 1.0000)
+		)
+		(uuid "e3502ae6-cf13-4afe-be88-45fc15a93066")
+		(property "Sheetname" "Power"
+			(at 50.8 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 50.8 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB.CC1" bidirectional
+			(at 76.2 45.72 0)
+			(uuid "040090c3-5e3b-45ed-907e-6e474925a3ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB.CC2" bidirectional
+			(at 76.2 48.26 0)
+			(uuid "1aeea9d5-e8c2-4330-913b-d1837477081a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB.DM" bidirectional
+			(at 76.2 40.64 0)
+			(uuid "bb33da10-b0e2-46a5-a784-bd03f1610e83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB.DP" bidirectional
+			(at 76.2 43.18 0)
+			(uuid "1a43f2e4-e8e6-4db4-8423-c56b84db5c4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBATT_SNS_AIN" output
+			(at 76.2 55.88 0)
+			(uuid "14aef50e-cb85-4344-8a5b-e8a49494e63a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBATT_SNS_EN" input
+			(at 76.2 53.34 0)
+			(uuid "46a72dbd-4b05-4de5-b84d-46d193626141")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SW_PWR_EN" input
+			(at 76.2 60.96 0)
+			(uuid "b2cd5e66-8a4d-4301-8b84-17be909a7588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Puzzlebox-HW"
+				(path "/85f46178-e592-4bba-8a52-0851a9e12da1"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
