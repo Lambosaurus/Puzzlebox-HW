@@ -911,6 +911,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "FFC connectors to touch panels"
+		(exclude_from_sim no)
+		(at 104.14 106.68 0)
+		(size 34.29 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d9d3eb00-c14a-4dc0-9b09-89db453c2b3f")
+	)
 	(junction
 		(at 54.61 55.88)
 		(diameter 0)

@@ -2834,10 +2834,10 @@
 		)
 		(uuid "fe64a8b8-505c-4c69-841a-3e27d9b0f430")
 	)
-	(text_box "Display: 2.2\" 128x128 LCD\nController: ST7571\nPN: ERC128128FS02-3"
+	(text_box "FFC Connector to display\nDisplay: 2.2\" 128x128 LCD\nController: ST7571\nPN: ERC128128FS02-3"
 		(exclude_from_sim no)
 		(at 203.2 43.18 0)
-		(size 40.64 7.62)
+		(size 30.48 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2853,6 +2853,26 @@
 			(justify left top)
 		)
 		(uuid "568879d7-fb0c-4b09-8b1a-8a74b09f246f")
+	)
+	(text_box "Backlight connector"
+		(exclude_from_sim no)
+		(at 95.25 87.63 0)
+		(size 21.59 3.81)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d749eac3-4262-41e1-a41d-48d4246a8c93")
 	)
 	(junction
 		(at 162.56 121.92)
@@ -2903,7 +2923,7 @@
 		(uuid "854503dc-2615-4c64-b325-f5b447ba9b50")
 	)
 	(junction
-		(at 86.36 123.19)
+		(at 69.85 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bc3c10e-23e2-42f2-ab8a-d93d6b689b80")
@@ -2915,7 +2935,7 @@
 		(uuid "ade0ea1b-17ff-4310-8cc4-3ae14f4bb008")
 	)
 	(junction
-		(at 74.93 111.76)
+		(at 58.42 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f080f5ba-59b9-4216-8a06-7f20b4c5c8f6")
@@ -2996,7 +3016,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 101.6) (xy 86.36 106.68)
+			(xy 69.85 101.6) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3066,7 +3086,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 87.63) (xy 86.36 87.63)
+			(xy 72.39 87.63) (xy 69.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3186,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 116.84) (xy 86.36 123.19)
+			(xy 69.85 116.84) (xy 69.85 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3176,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 123.19) (xy 86.36 124.46)
+			(xy 69.85 123.19) (xy 69.85 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 83.82) (xy 86.36 87.63)
+			(xy 69.85 83.82) (xy 69.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3196,7 +3216,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 123.19) (xy 86.36 123.19)
+			(xy 58.42 123.19) (xy 69.85 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 114.3) (xy 74.93 111.76)
+			(xy 58.42 114.3) (xy 58.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 111.76) (xy 81.28 111.76)
+			(xy 58.42 111.76) (xy 64.77 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3256,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 90.17) (xy 86.36 96.52)
+			(xy 69.85 90.17) (xy 69.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3276,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 90.17) (xy 88.9 90.17)
+			(xy 69.85 90.17) (xy 72.39 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3286,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 111.76) (xy 74.93 111.76)
+			(xy 50.8 111.76) (xy 58.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3366,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 119.38) (xy 74.93 123.19)
+			(xy 58.42 119.38) (xy 58.42 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +3588,7 @@
 	)
 	(hierarchical_label "BACKLIGHT"
 		(shape input)
-		(at 67.31 111.76 180)
+		(at 50.8 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3612,7 +3632,7 @@
 	)
 	(symbol
 		(lib_id "J_Connector:S2B-PH-K-S")
-		(at 92.71 86.36 0)
+		(at 76.2 86.36 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3622,7 +3642,7 @@
 		(fields_autoplaced yes)
 		(uuid "22436349-6324-41a2-9617-f2df5928e4a2")
 		(property "Reference" "J3"
-			(at 95.25 87.6299 0)
+			(at 78.74 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +3651,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-K-S"
-			(at 95.25 90.1699 0)
+			(at 78.74 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3660,7 @@
 			)
 		)
 		(property "Footprint" "J_Connector:JST-S2B-PH-K-S"
-			(at 92.71 83.185 0)
+			(at 76.2 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3649,7 +3669,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 92.71 81.28 0)
+			(at 76.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3678,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 2POS 2MM"
-			(at 92.964 78.994 0)
+			(at 76.454 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3770,7 @@
 	)
 	(symbol
 		(lib_id "R_Resistor:R_0603")
-		(at 86.36 99.06 0)
+		(at 69.85 99.06 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3760,7 +3780,7 @@
 		(fields_autoplaced yes)
 		(uuid "33cdaff5-346c-491b-a080-efe8a528451e")
 		(property "Reference" "R10"
-			(at 88.9 97.1549 0)
+			(at 72.39 97.1549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3789,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 88.9 99.6949 0)
+			(at 72.39 99.6949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3798,7 @@
 			)
 		)
 		(property "Footprint" "R_Resistor:R_0603"
-			(at 88.9 99.06 90)
+			(at 72.39 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 102.87 0)
+			(at 72.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3816,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 99.06 0)
+			(at 69.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +3825,7 @@
 			)
 		)
 		(property "Size" "R_0603"
-			(at 88.9 101.6 0)
+			(at 72.39 101.6 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -3908,7 +3928,7 @@
 	)
 	(symbol
 		(lib_id "R_Resistor:R_0603")
-		(at 74.93 116.84 0)
+		(at 58.42 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3918,7 +3938,7 @@
 		(fields_autoplaced yes)
 		(uuid "598d0b77-5acd-4b54-83db-7fa00a8b495d")
 		(property "Reference" "R9"
-			(at 77.47 114.9349 0)
+			(at 60.96 114.9349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3947,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 77.47 117.4749 0)
+			(at 60.96 117.4749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3956,7 @@
 			)
 		)
 		(property "Footprint" "R_Resistor:R_0603"
-			(at 77.47 116.84 90)
+			(at 60.96 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 120.65 0)
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 116.84 0)
+			(at 58.42 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,7 +3983,7 @@
 			)
 		)
 		(property "Size" "R_0603"
-			(at 77.47 119.38 0)
+			(at 60.96 119.38 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -3988,7 +4008,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 86.36 83.82 0)
+		(at 69.85 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3997,7 +4017,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ff01dff-4937-46ab-ba19-222e004a3056")
 		(property "Reference" "#PWR024"
-			(at 86.36 87.63 0)
+			(at 69.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4026,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 86.36 78.74 0)
+			(at 69.85 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 83.82 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 83.82 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4052,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 86.36 83.82 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4207,7 @@
 	)
 	(symbol
 		(lib_id "Q_MOSFET:DMG1012UW-7")
-		(at 86.36 111.76 0)
+		(at 69.85 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4196,7 +4216,7 @@
 		(fields_autoplaced yes)
 		(uuid "82da9a4a-248a-4c00-a790-8dd4328f1492")
 		(property "Reference" "Q3"
-			(at 88.9 110.4899 0)
+			(at 72.39 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +4225,7 @@
 			)
 		)
 		(property "Value" "DMG1012UW-7"
-			(at 88.9 113.0299 0)
+			(at 72.39 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4234,7 @@
 			)
 		)
 		(property "Footprint" "U_IC:SC70-3"
-			(at 86.36 127 0)
+			(at 69.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4243,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG1012UW.pdf"
-			(at 85.09 124.46 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4252,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 20V 1A SOT323"
-			(at 86.36 129.286 0)
+			(at 69.85 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4345,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 124.46 0)
+		(at 69.85 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4334,7 +4354,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8714324-8747-4bb0-bde7-f5adc611beac")
 		(property "Reference" "#PWR025"
-			(at 86.36 130.81 0)
+			(at 69.85 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 129.54 0)
+			(at 69.85 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 124.46 0)
+			(at 69.85 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +4380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 124.46 0)
+			(at 69.85 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 124.46 0)
+			(at 69.85 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
